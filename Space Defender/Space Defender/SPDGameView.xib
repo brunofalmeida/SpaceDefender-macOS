@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SPDGameViewController">
+            <connections>
+                <outlet property="skView" destination="sTe-D0-zCa" id="xIS-Dz-J2v"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="sTe-D0-zCa" userLabel="SKView" customClass="SKView">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="sTe-D0-zCa" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="IYs-SD-u5Q"/>
+                <constraint firstAttribute="trailing" secondItem="sTe-D0-zCa" secondAttribute="trailing" id="S44-Xy-avt"/>
+                <constraint firstAttribute="bottom" secondItem="sTe-D0-zCa" secondAttribute="bottom" id="XXU-Tn-CtZ"/>
+                <constraint firstItem="sTe-D0-zCa" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="t01-w8-cJp"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>
